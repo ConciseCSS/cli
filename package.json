@@ -1,0 +1,29 @@
+{
+  "name": "@concisecss/cli",
+  "version": "0.1.0",
+  "description": "The Command-line Interface for Concise CSS",
+  "main": "index.js",
+  "dependencies": {
+    "@concisecss/preprocessor": "github:ConciseCSS/preprocessor",
+    "cliparse": "^0.2.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConciseCSS/cli.git"
+  },
+  "keywords": [
+    "cli",
+    "concise",
+    "css"
+  ],
+  "author": "James Kolce <contact@jameskolce.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ConciseCSS/cli/issues"
+  },
+  "homepage": "https://github.com/ConciseCSS/cli#readme"
+}
