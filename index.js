@@ -18,11 +18,9 @@ cliParse.parse(cliParse.cli({
           cliParse.argument('input', { description: 'File to compile' }),
           cliParse.argument('output', { description: 'Output CSS file' })
         ]
-      }, (params) => {
+      }, params => {
         fs.writeFile(params.args[1], compile(params.args[0]), (err) => {
-          if (err) {
-            throw err;
-          }
+          if (err) { throw err; }
 
           console.log(`File written: ${params.args[1]}\nFrom: ${params.args[0]}`);
         })

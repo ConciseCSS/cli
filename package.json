@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "The Command-line Interface for Concise CSS",
   "main": "index.js",
+  "bin": {
+    "concise": "index.js"
+  },
   "dependencies": {
     "@concisecss/preprocessor": "github:ConciseCSS/preprocessor",
     "cliparse": "^0.2.8"
