@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const cliParse = require('cliparse');
-const compile = require('@concisecss/preprocessor');
+const compile = require('@concisecss/preprocessor').default;
 
 const pkg = require('./package.json');
 const fs = require('fs');
