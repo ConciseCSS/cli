@@ -8,11 +8,13 @@
   },
   "dependencies": {
     "@concisecss/preprocessor": "github:ConciseCSS/preprocessor",
+    "chokidar": "^1.7.0",
     "cliparse": "^0.2.8"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node index.js compile test/input.ccss test/output.css"
+    "test": "node index.js compile test/input.ccss test/output.css",
+    "test:watch": "node index.js compile -w test/input.ccss test/output.css"
   },
   "repository": {
     "type": "git",
