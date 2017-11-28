@@ -10,7 +10,9 @@
     "@concisecss/preprocessor": "github:ConciseCSS/preprocessor",
     "chalk": "^2.3.0",
     "chokidar": "^1.7.0",
-    "cliparse": "^0.2.8"
+    "cliparse": "^0.2.8",
+    "cssnano": "^3.10.0",
+    "postcss": "^6.0.14"
   },
   "devDependencies": {},
   "scripts": {
