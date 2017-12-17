@@ -1,13 +1,13 @@
 {
   "name": "@concisecss/cli",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "The Command-line Interface for Concise CSS",
   "main": "index.js",
   "bin": {
     "concise": "index.js"
   },
   "dependencies": {
-    "@concisecss/preprocessor": "github:ConciseCSS/preprocessor",
+    "@concisecss/preprocessor": "^0.2.0",
     "chalk": "^2.3.0",
     "chokidar": "^1.7.0",
     "cliparse": "^0.2.8",
